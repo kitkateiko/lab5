@@ -10,9 +10,9 @@
 
     <TextView
         android:id="@+id/Text"
-        android:layout_width="151dp"
+        android:layout_width="200dp"
         android:layout_height="35dp"
-        android:text="Сумма вклада:"
+        android:text="Количество литров"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -37,21 +37,21 @@
             android:id="@+id/option_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="3 месяца (3%)"
+            android:text="93       (50руб)"
             android:textColor="#FFFFFF" />
 
         <RadioButton
             android:id="@+id/option_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="6 месяцев (6%)"
+            android:text="95       (55руб)"
             android:textColor="#FFFFFF" />
 
         <RadioButton
             android:id="@+id/option_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="12 месяцев (9%)"
+            android:text="98       (57руб)"
             android:textColor="#FFFFFF" />
     </RadioGroup>
 

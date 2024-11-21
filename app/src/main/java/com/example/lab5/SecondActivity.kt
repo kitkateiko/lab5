@@ -32,13 +32,13 @@ class SecondActivity : AppCompatActivity() {
         var resault:Double=percent
         when(Selected_Radio){
             "option1"->{
-                    resault += resault*0.03
+                    resault = resault*50
             }
             "option2"->{
-                    resault += resault*0.05
+                    resault = resault*55
             }
             "option3"->{
-                    resault += resault*0.09
+                    resault = resault*57
             }
         }
         val editedText = decimalFormat.format(resault)
